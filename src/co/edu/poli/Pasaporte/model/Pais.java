@@ -19,7 +19,7 @@ public class Pais {
     public String nombre;
 
    
-    public List<Ciudad> ciudad;
+    public String ciudad;
 
 
 	public String getCodigo() {
@@ -47,7 +47,7 @@ public class Pais {
 	}
 
 
-	public void setCiudad(List<Ciudad> ciudad) {
+	public void setCiudad(String ciudad) {
 		this.ciudad = ciudad;
 	}
 
