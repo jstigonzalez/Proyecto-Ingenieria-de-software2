@@ -18,6 +18,7 @@ public class Pasaporte {
 
     
     public Titular titular;
+    
 
     
     public Pais pais;

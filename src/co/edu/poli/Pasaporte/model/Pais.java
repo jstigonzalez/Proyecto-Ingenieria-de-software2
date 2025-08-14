@@ -19,7 +19,7 @@ public class Pais {
     public String nombre;
 
    
-    public List <Ciudad> ciudad;
+    public List<Ciudad> ciudad;
 
 
 	public String getCodigo() {
@@ -42,7 +42,7 @@ public class Pais {
 	}
 
 
-	public List<Ciudad> getCiudad() {
+	public String getCiudad() {
 		return ciudad;
 	}
 
@@ -52,11 +52,11 @@ public class Pais {
 	}
 
 
-	public Pais(String codigo, String nombre, List<Ciudad> ciudad) {
+	public Pais(String codigo, String nombre, String ciudadPais) {
 		super();
 		this.codigo = codigo;
 		this.nombre = nombre;
-		this.ciudad = ciudad;
+		this.ciudad = ciudadPais;
 	}
 
 
