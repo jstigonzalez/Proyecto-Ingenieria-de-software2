@@ -55,7 +55,7 @@ public class Cliente {
         String codigoPais = sc.nextLine();
         System.out.print("Ingrese el nombre del país: ");
         String nombrePais = sc.nextLine();
-        System.out.print("Ingrese la ciudad: ");
+        System.out.print("Ingrese la ciudades: ");
         String ciudadPais = sc.nextLine();
         Pais pais = new Pais(codigoPais, nombrePais, ciudadPais); 
 
